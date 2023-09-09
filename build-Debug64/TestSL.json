@@ -1,0 +1,61 @@
+{
+    "debug_input": "E:/tearpoints/video/Video_20230214081805725.avi",
+    "debug_autoPause": 1,
+
+    "core": {
+        "mmpf": 1,
+        "mmpp": 1,
+        "width": 1920,
+        "height": 512,
+        "cx0": 50,
+        "cy0": 50,
+        "cx1": 1800,
+        "cy1": 480,
+
+        "initxy_xneig": 20,
+        "initxy_xneigPixelsMin": 5,
+        "find_boxWidth": 20,
+        "find_boxHeight": 30,
+        "find_boxPixelsMin": 2,
+        "find_neigWidth": 10,
+        "find_neigHeight": 10,
+        "find_neigPixelsMin": 25,
+
+        "point_cclSizeMin": 50,
+        "point_winWidth": 40,
+
+        "fit_maxRes": 20,
+        "fit_stepRatio": 0.1,
+        "fit_minRatio": 0.6,
+        "fit_zScoreTh": 1.7,
+        "fit_zScorePlus": 5.0,
+        "fsm_xcombine": 5,
+        "fsm_tclear": 8,
+        "fsm_tactive": 5,
+
+        "alarmcfg_enable": 0,
+        "alarmcfg_xsize": [
+            1,
+            2,
+            3
+        ],
+        "alarmcfg_ysize": [
+            4,
+            5,
+            6
+        ],
+		"houghbox_width": 50,
+		"houghbox_height": 120,
+		"grayvalue_minstep":5,
+		"nonsequence_points_nums":[
+			3,
+			10
+	    ],
+		
+		"hough_minLineLength_1":60.0,
+		"hough_maxLineGap_1":30.0,
+		
+		"hough_minLineLength_2":40.0,
+		"hough_maxLineGap_2": 25.0
+    }
+}
